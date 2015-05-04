@@ -84,14 +84,14 @@ Below is the basic spread for Mosina (not including Jekyll or GitHub-related obj
 │       ├─ processes/
 │       └─ server/
 ├─ _layout/
-├─ assets/
+├─ js/
+├─ less/
+├─ public/
 │   ├─ css/
 │   ├─ fonts/
 │   ├─ img/
-│   └─ js/
-├─ library/
-│   ├─ less/
-│   └─ plugins/
+│   ├─ js/
+│   └─ logs/
 ├─ alerts.html
 ├─ config.html
 ├─ index.html
