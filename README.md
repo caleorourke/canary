@@ -41,7 +41,7 @@ Mosina is hosted on GitHub using [GitHub Pages](http://pages.github.com). It can
 Run the command below to preview a local instance of your site.
 
 ```bash
-$ jekyll serve
+$ grunt serve
 ```
 
 After Jekyll starts, fire up a browser and type in `localhost:4000` for the web address. This will pull up the site Jekyll just generated.
