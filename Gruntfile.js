@@ -31,8 +31,8 @@ module.exports = function(grunt) {
     },
 
     clean: {
-      assets: ['public/css/graysuit.min.css',
-               'public/js/graysuit.min.js']
+      assets: ['public/css/app.min.css',
+               'public/js/app.min.js']
     },
 
     concat: {
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
               'js/dcjq.accordion.js',
               'js/raphael.min.js'
               ],
-        dest: 'public/js/graysuit.min.js'
+        dest: 'public/js/app.min.js'
       }
     },
 
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
           report: 'min'
         },
         src: '<%= concat.main.dest %>',
-        dest: 'public/js/graysuit.min.js'
+        dest: 'public/js/app.min.js'
       }
     },
 
@@ -69,7 +69,7 @@ module.exports = function(grunt) {
           banner: '<%= banner %>'
         },
         src: ['less/@import.less'],
-        dest: 'public/css/graysuit.min.css'
+        dest: 'public/css/app.min.css'
       },
       minify: {
         options: {
