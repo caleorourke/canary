@@ -40,8 +40,7 @@ module.exports = function(grunt) {
         options: {
           banner: '<%= banner %>'
         },
-        src: ['js/bootstrap.min.js',
-              'js/dataTables.jquery.js',
+        src: ['js/dataTables.jquery.js',
               'js/dataTables.bootstrap.js',
               'js/dcjq.accordion.js',
               'js/raphael.min.js'

@@ -1,4 +1,4 @@
-Severity,Event,Occurred,Acknowledged,User
+Type,Message,"Occurred On","Cleared On","Cleared By"
 Error,"You have a problem that requires your attention",11/13/14 01:23,10/13/14 03:03,vsuser04
 Error,"You have a problem that requires your attention",11/13/14 01:23,10/13/14 03:03,dbadmin08
 Error,"You have a problem that requires your attention",11/13/14 01:23,10/13/14 03:03,vsadmin
