@@ -6,11 +6,11 @@
     "@gray": "#6d6e71",
     "@gray-light": "#808285",
     "@gray-lighter": "#f1f2f3",
-    "@brand-primary": "#398bcd",
-    "@brand-success": "#3cc05e",
+    "@brand-primary": "#4178be",
+    "@brand-success": "#5aa700",
     "@brand-info": "#d1d3d4",
-    "@brand-warning": "#f6936f",
-    "@brand-danger": "#f36364",
+    "@brand-warning": "#ff7832",
+    "@brand-danger": "#e71d32",
     "@body-bg": "#fff",
     "@text-color": "@gray-darker",
     "@link-color": "@brand-primary",
@@ -94,6 +94,7 @@
     "@input-height-base": "(@line-height-computed + (@padding-base-vertical * 2) + 2)",
     "@input-height-large": "(ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2)",
     "@input-height-small": "(floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2)",
+    "@form-group-margin-bottom": "15px",
     "@legend-color": "@gray-dark",
     "@legend-border-color": "@gray-lighter",
     "@input-group-addon-bg": "@gray-lighter",
@@ -418,5 +419,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=d8265508057345c923fd"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=2dbc4613ffda34bca4dd"
 }
