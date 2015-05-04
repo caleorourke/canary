@@ -1,0 +1,20 @@
+github:
+  name:     Mosina
+  tagline:  A blueprint for defining monitoring data visually
+  license:  MIT
+permalink:  pretty
+exclude:   ["public/img/ideation",
+            "public/img/blueprints",
+            "public/css/config.json",
+            "js",
+            "less",
+            "node_modules",
+            ".gitignore",
+            "Gruntfile.js",
+            "LICENSE",
+            "package.json",
+            "README.md",
+            "validation-*.json"
+            ]
+gems:
+  - jekyll-sitemap
