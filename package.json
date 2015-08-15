@@ -1,9 +1,9 @@
 {
-  "name": "Mosina",
-  "version": "0.3.4",
+  "name": "Graysuit",
+  "version": "0.4.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caleorourke/mosina.git"
+    "url": "https://github.com/caleorourke/graysuit.git"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -12,7 +12,7 @@
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-csscomb": "^3.0.0",
     "grunt-html-validation": "^0.1.18",
-    "grunt-jekyll-pages": "^0.4.0",
+    "grunt-jekyll-pages": "^0.5.0",
     "grunt-recess": "^1.0.0",
     "grunt-shell": "^1.1.1"
   }
