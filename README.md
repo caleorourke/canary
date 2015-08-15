@@ -20,20 +20,28 @@ Graysuit is hosted on GitHub using [GitHub Pages](http://pages.github.com). It c
 
 Clone from GitHub and go into the directory.
 
-        $ git clone -b gh-pages https://github.com/caleorourke/graysuit.git
-        $ cd graysuit
+```
+$ git clone -b gh-pages https://github.com/caleorourke/graysuit.git
+$ cd graysuit
+```
 
 Install Grunt's CLI.
 
-        $ [sudo] npm install -g grunt-cli
+```
+$ [sudo] npm install -g grunt-cli
+```
 
 Install Node packages.
 
-        $ [sudo] npm install
+```
+$ [sudo] npm install
+```
 
 Install GitHub Pages and runtime dependencies.
 
-        $ [sudo] grunt install
+```
+$ [sudo] grunt install
+```
 
 ## Local Deployment
 
@@ -53,22 +61,30 @@ Serve mode lasts forever. It won't timeout after a period of non-usage. Press `C
 
 Make a fresh clone and go into the directory.
 
-        $ git clone https://github.com/username/grayhat.git
-        $ cd grayhat
+```
+$ git clone https://github.com/username/grayhat.git
+$ cd grayhat
+```
 
 Create a new `gh-pages` branch.
 
-        $ git checkout --orphan gh-pages
+```
+$ git checkout --orphan gh-pages
+```
 
 Copy the contents from `/graysuit` to `/grayhat`.
 
-        $ cp -r ~/graysuit/* ~/grayhat
+```
+$ [sudo] cp -r ~/graysuit/* ~/grayhat
+```
 
-4. Push your site to GitHub.
+Push your site to GitHub.
 
-        $ git add .
-        $ git commit -a -m "first commit"
-        $ git push origin gh-pages
+```
+$ git add .
+$ git commit -a -m "first commit"
+$ git push origin gh-pages
+```
 
 ## Code Organization
 
