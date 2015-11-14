@@ -1,10 +1,10 @@
-<a href="http://travis-ci.org/caleorourke/greysuit?branch=gh-pages" target="_blank"><img src="http://travis-ci.org/caleorourke/greysuit.svg?branch=gh-pages" alt="Build Status"></a>
-<a href="https://david-dm.org/caleorourke/greysuit#info=devDependencies" target="_blank"><img src="https://david-dm.org/caleorourke/greysuit/dev-status.svg?theme=shields.io"></a>
-<a href="http://github.com/caleorourke/greysuit/blob/gh-pages/LICENSE" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
+<a href="http://travis-ci.org/caleorourke/canary?branch=gh-pages" target="_blank"><img src="http://travis-ci.org/caleorourke/canary.svg?branch=gh-pages" alt="Build Status"></a>
+<a href="https://david-dm.org/caleorourke/canary#info=devDependencies" target="_blank"><img src="https://david-dm.org/caleorourke/canary/dev-status.svg?theme=shields.io"></a>
+<a href="http://github.com/caleorourke/canary/blob/gh-pages/LICENSE" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
 
-## Greysuit
+## Canary
 
-Greysuit is a blueprint for defining monitoring data artifacts in a visual manner.
+Canary is a blueprint for defining monitoring data artifacts in a visual manner.
 
 * [Prerequisites](#prerequisites)
 * [Quick Install](#quick-install)
@@ -14,15 +14,15 @@ Greysuit is a blueprint for defining monitoring data artifacts in a visual manne
 
 ## Prerequisites
 
-Greysuit is hosted on GitHub using [GitHub Pages](http://pages.github.com). It can be served locally using [Jekyll](http://jekyllrb.com) with __Ruby 2.0.0__ or greater. [Click here](http://www.ruby-lang.org/en/installation) to download and install Ruby. If you have Ruby, but aren’t sure which version, run `ruby -v`.
+Canary is hosted on GitHub using [GitHub Pages](http://pages.github.com). It can be served locally using [Jekyll](http://jekyllrb.com) with __Ruby 2.0.0__ or greater. [Click here](http://www.ruby-lang.org/en/installation) to download and install Ruby. If you have Ruby, but aren’t sure which version, run `ruby -v`.
 
 ## Quick Install
 
 Clone from GitHub and go into the directory.
 
 ```
-$ git clone -b gh-pages https://github.com/caleorourke/greysuit.git
-$ cd greysuit
+$ git clone -b gh-pages https://github.com/caleorourke/canary.git
+$ cd canary
 ```
 
 Install Grunt's CLI.
@@ -62,8 +62,8 @@ Serve mode lasts forever. It won't timeout after a period of non-usage. Press `C
 Make a fresh clone and go into the directory.
 
 ```
-$ git clone https://github.com/username/bluehat.git
-$ cd bluehat
+$ git clone https://github.com/username/island.git
+$ cd island
 ```
 
 Create a new `gh-pages` branch.
@@ -72,10 +72,10 @@ Create a new `gh-pages` branch.
 $ git checkout --orphan gh-pages
 ```
 
-Copy the contents from `/greysuit` to `/bluehat`.
+Copy the contents from `/canary` to `/island`.
 
 ```
-$ [sudo] cp -r ~/greysuit/* ~/bluehat
+$ [sudo] cp -r ~/canary/* ~/island
 ```
 
 Push your site to GitHub.
@@ -88,7 +88,7 @@ $ git push origin gh-pages
 
 ## Code Organization
 
-Below is the basic spread for Greysuit (not including Jekyll or GitHub-related objects).
+Below is the basic spread for Canary (not including Jekyll or GitHub-related objects).
 
 <pre>
 ├─ _includes/
